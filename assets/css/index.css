@@ -17,6 +17,41 @@ body {
    line-height: 1.4;
 }
 
+
+.container-callout {
+   background: url("../img/bg.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   height: 100vh;
+   position: relative;
+   z-index: -1;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-callout .jumbotron {
+   background: rgba(0,0,0,.5);
+   padding: 20px;
+}
+
+.container-callout .jumbotron h1 {
+   color: rgb(255,255,255);
+   opacity: 1;
+}
+
+
+
+
+
+
+
+
+/*
 .container {
    max-width: 960px;
    margin: auto;
@@ -52,7 +87,7 @@ body {
 }
 
 .showcase h1 {
-   font-size: 4rem;
+   font-size: 50px;
 }
 
 .showcase p {
@@ -73,3 +108,4 @@ body {
 .btn:hover {
    opacity: 0.7;
 }
+*/

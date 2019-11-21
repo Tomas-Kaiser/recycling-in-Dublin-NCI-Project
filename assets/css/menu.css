@@ -1,4 +1,4 @@
-nav {
+.main-menu {
    text-align: right;
    border-bottom: 1px solid #464646;
    height: 70px;
@@ -10,7 +10,7 @@ nav {
    width: 100%;
 }
 
-nav label {
+.main-menu label {
    margin: 0 40px 0 0;
    font-size: 26px;
    line-height: 70px;
@@ -35,42 +35,42 @@ nav label {
    to {opacity: 1;}
  }
 
-nav .menu {
+ .main-menu .menu {
    clear: right;
    display: none;
    background-color: rgba(0,0,0,.5);
 }
 
-nav .menu ul li {
+.main-menu .menu ul li {
    display: block;
    padding: 0 20px;
    text-align: center;
 }
 
-nav .menu ul li a {
+.main-menu .menu ul li a {
    color: white;
    text-decoration: none;
 }
 
-nav .menu ul li a:hover {
+.main-menu .menu ul li a:hover {
    color: #97f594;
    transition: color .5s ease-out;
 }
 
 @media only screen and (min-width: 960px){
-   nav {
+   .main-menu {
       background-color: inherit;
    }
 
-   nav label {
+   .main-menu label {
       display: none;
    }
 
-   nav .menu {
+   .main-menu .menu {
       display: block;
    }
 
-   nav .menu ul li {
+   .main-menu .menu ul li {
       display: inline-block;
       padding: 0 20px;
       text-align: center;

@@ -12,7 +12,7 @@
 }
 
 body {
-
+   background-color: rgb(238, 238, 238);
    font-family: 'Roboto', sans-serif;
    line-height: 1.4;
 }
@@ -97,15 +97,18 @@ body {
 */
 
 .container-about {
-   margin: 0 10px;
+   margin: auto;
+   padding: 40px 20px 80px 20px;
+   max-width: 900px;
 }
 
 .container-about .who-we-are {
-   padding: 10px 0;
+   padding: 40px 20px 80px 20px;
 }
 
 .container-about .our-purpose {
-   padding: 10px 0;
+   padding: 40px 20px 80px 20px;
+   text-align: right;
 }
 
 

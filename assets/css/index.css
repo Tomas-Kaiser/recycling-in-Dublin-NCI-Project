@@ -45,6 +45,8 @@ body {
 .container-callout .jumbotron h1 {
    color: rgb(255,255,255);
    opacity: 1;
+   font-size: 35px;
+   letter-spacing: 3px;
 }
 
 /* ARROWS */

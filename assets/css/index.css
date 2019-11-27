@@ -101,6 +101,11 @@ body {
 **
 */
 
+#about-section {
+   margin-top: -70px;
+   margin-bottom: 70px;
+}
+
 .container-about {
    margin: auto;
    padding: 40px 20px 80px 20px;

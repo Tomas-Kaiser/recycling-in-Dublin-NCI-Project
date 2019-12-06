@@ -21,6 +21,19 @@ body {
    line-height: 1.4;
 }
 
+.jumbotron {
+   background: rgba(0,0,0,.5);
+   padding: 20px;
+}
+
+/*
+**
+**
+*** Callout Section
+**
+**
+*/
+
 
 .container-callout {
    background: url("../img/bg.jpg") no-repeat center center fixed; 
@@ -37,12 +50,7 @@ body {
    justify-content: center;
 }
 
-.container-callout .jumbotron {
-   background: rgba(0,0,0,.5);
-   padding: 20px;
-}
-
-.container-callout .jumbotron h1 {
+.jumbotron h1 {
    color: rgb(255,255,255);
    opacity: 1;
    font-size: 35px;
@@ -120,6 +128,43 @@ body {
    padding: 40px 20px 80px 20px;
    text-align: right;
 }
+
+/*
+**
+**
+*** Pre-Gallery section
+**
+**
+*/
+
+.container-pre-gallery {
+   background: url("../img/bg.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+   height: 20vh;
+  
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-pre-gallery h2 {
+   color: #fff;
+}
+
+
+/*
+**
+**
+*** Gallery section
+**
+**
+*/
+
 
 
 /*

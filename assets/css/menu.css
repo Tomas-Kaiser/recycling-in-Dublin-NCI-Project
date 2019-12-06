@@ -50,6 +50,21 @@
    z-index: 1001;
 }
 
+#logo:hover {
+   animation: rotation 1s ease-in-out;
+}
+
+@keyframes rotation {
+   from {
+         -webkit-transform: rotate(0deg);
+   }
+   to {
+         -webkit-transform: rotate(359deg);
+   }
+}
+
+
+
 .main-menu .menu ul li {
    display: block;
    padding: 0 20px;

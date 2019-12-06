@@ -47,6 +47,7 @@
    top: 10px;
    border-radius: 29px;
    left: 10px;
+   z-index: 1001;
 }
 
 .main-menu .menu ul li {

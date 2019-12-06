@@ -84,9 +84,13 @@
 
    <!-- GALLERY SECTION -->
    <section class="container-gallery">
-      <header>
-         <h2>Gallery</h2>
-      </header>
+      <p>Look at those pictures if you are still not keen on recycling</p>
+      <div class="img-wrap">
+         <div class="loader"></div>
+         <div class="img-error-msg">Something went wrong! Try to click the button "Next Image".</div>
+         <img id="unsplash" src="" alt="trash picture">
+      </div>
+      <input id="randomImg" type="button" value="Random Image" onclick="fetchNextImg();">
    </section>
    <!-- /GALLERY SECTION -->
 
@@ -118,48 +122,7 @@
       </nav>
    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <!-- When to use nav element? 
-   <nav class="menu-wrap">
--->
-
-   <!-- Hamburger menu 
-      <input type="checkbox" class="toggler">
-      <div class="hamburger"><div></div></div>
-      <div class="menu">
-         <div>
-            <div>
-               <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-               </ul>
-            </div>
-         </div>
-      </div>-->
-   <!-- /Hamburger menu 
-   </nav>
-
-   <header class="showcase">
-      <div class="container showcase-inner">
-         <h1>Web Desing Project</h1>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente nihil eaque quo illo voluptate! Ipsam dolorum exercitationem labore reiciendis voluptatibus quas officiis fugiat veniam at inventore perspiciatis, sapiente dolorem vel.</p>
-         <a href="#" class="btn">Read More</a>
-      </div>
-   </header>
-   -->
+   <script src="./assets/js/unsplashAPI.js"></script>
 </body>
 
 </html>

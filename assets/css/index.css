@@ -28,12 +28,12 @@ body {
 
 input[type="button"] {
    color: darkgreen;
-   padding: 15px 10px;
+   padding: 5px 8px;
    background: transparent;
    border-radius: 4px;
    border: 3px solid #4f7712;
    cursor: pointer;
-   font-size: 18px;
+   font-size: 14px;
 }
 
 input[type="button"]:hover {

@@ -1,0 +1,51 @@
+#more {
+  display: none;
+}
+
+.container-where-to-recycle {
+  padding: 80px 0;
+}
+
+.container-where-to-recycle h2 {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.container-where-to-recycle .text-wrap {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.container-where-to-recycle .text-wrap h3 {
+  margin-bottom: 8px;
+}
+
+.container-where-to-recycle .text-wrap ul {
+  margin-left: 25%;
+  margin-bottom: 8px;
+}
+
+.container-where-to-recycle .text-wrap ul li {
+  padding: 4px 0;
+}
+
+.container-where-to-recycle #dots {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container-where-to-recycle .btn-wrap {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container-where-to-recycle .btn-wrap input{
+  padding: 5px 8px !important;
+  font-size: 14px !important;
+}
+
+.container-where-to-recycle .map-wrap {
+  padding: 25px 0;
+}

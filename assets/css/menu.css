@@ -81,6 +81,10 @@
    transition: color .5s ease-out;
 }
 
+.main-menu .menu ul li .active {
+   color: #97f594;
+}
+
 @media only screen and (min-width: 960px){
    .main-menu {
       background-color: inherit;

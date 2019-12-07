@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/menu.css" type="text/css">
+  <link rel="stylesheet" href="./assets/css/whereToRecycling.css" type="text/css">
+
+  <script>
+    function ReadMore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("morebtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "block";
+        btnText.value = "Read More";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.value = "Read Less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav class="main-menu">
+      <a href="index.html">
+        <img id="logo" src="./assets/img/logo.jpg" alt="logo" width="50">
+      </a>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle" class="hamburger">
+        <div class="top-bun"></div>
+        <div class="meat"></div>
+        <div class="bottom-bun"></div>
+      </label>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">About Recycling</a></li>
+          <li><a href="#">How to Recycle</a></li>
+          <li><a href="./recyclingproject.html" class="active">Where to Recycle</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-where-to-recycle">
+    <h2>Do you need help where to recycle?</h2>
+    <section class="text-wrap">
+      <h3>Recycling Centres in Dublin</h3>
+      <p>
+        So the recycling system that Dublin City Council operates can be broken into
+        the following 3 streams:
+        <ul>
+          <li>Civic Amenity Centres</li>
+          <li>Community Bring Centres</li>
+          <li>Bottle Banks</li>
+        </ul>
+      </p>
+
+      <h5>RECYCLING IN DUBLIN</h5>
+      <p>
+        Our comprehensive map shows you where the nearest bring bank, civic amenity site,
+        and waste collection point is near you, wherever you live in Dublin.
+      </p>
+
+      <span id="dots">...</span><span id="more">
+        Here you will find everything you need to know about how to manage your waste
+        responsibly and efficiently. Browse this site for local waste services,
+        recycling facilities, information on preventing, reusing and disposing of waste.
+      </span>
+      <div class="btn-wrap">
+        <input type="button" onclick="ReadMore()" id="morebtn" value="Read More" />
+      </div>
+    </section>
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126191.75181284164!2d-6.42306871781865!3d53.3612937193037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdublin%20recycling%20centres!5e0!3m2!1sen!2sie!4v1572982759042!5m2!1sen!2sie&zoom=1000"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+      </iframe>
+    </div>
+  </div>
+
+  <footer>
+    <section class=social-media>
+      <h4>Follow Us</h4>
+      <ul>
+        <div class="social-icons-first">
+          <li><a href="#" class="fa fa-linkedin"></a></li>
+          <li><a href="#" class="fa fa-pinterest"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+        </div>
+        <div class="social-icons-second">
+          <li><a href="#" class="fa fa-youtube"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+          <li><a href="#" class="fa fa-facebook"></a></li>
+        </div>
+      </ul>
+    </section>
+
+    <nav class="footer-menu">
+      <ul>
+        <li><a href="#">About Recycling</a></li>
+        <li><a href="#">How to Recycle</a></li>
+        <li><a href="#">Where to Recycle</a></li>
+        <li><a href="#">Learning game</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>

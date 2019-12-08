@@ -94,7 +94,13 @@ input[type="button"]:hover {
    color: rgb(255,255,255);
    opacity: 1;
    font-size: 35px;
+   font-family: Tomorrow, sans-serif;
    letter-spacing: 3px;
+}
+
+h2 {
+   font-size: 35px;
+   font-family: Tomorrow, sans-serif;
 }
 
 /* ARROWS */

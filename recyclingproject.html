@@ -8,6 +8,11 @@
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+
   <!-- Styles -->
   <link rel="stylesheet" href="./assets/css/index.css" type="text/css">
   <link rel="stylesheet" href="./assets/css/menu.css" type="text/css">
@@ -70,11 +75,11 @@
         </ul>
       </p>
       <span id="dots">...</span><span id="more">
-      <h5>RECYCLING IN DUBLIN</h5>
-      <p>
-        Our comprehensive map shows you where the nearest bring bank, civic amenity site,
-        and waste collection point is near you, wherever you live in Dublin.
-      </p>
+        <h5>RECYCLING IN DUBLIN</h5>
+        <p>
+          Our comprehensive map shows you where the nearest bring bank, civic amenity site,
+          and waste collection point is near you, wherever you live in Dublin.
+        </p>
         Here you will find everything you need to know about how to manage your waste
         responsibly and efficiently. Browse this site for local waste services,
         recycling facilities, information on preventing, reusing and disposing of waste.
@@ -83,6 +88,9 @@
         <input type="button" onclick="ReadMore()" id="morebtn" value="Read More" />
       </div>
     </section>
+
+    <div id="mapid"></div>
+
     <div class="map-wrap">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126191.75181284164!2d-6.42306871781865!3d53.3612937193037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdublin%20recycling%20centres!5e0!3m2!1sen!2sie!4v1572982759042!5m2!1sen!2sie&zoom=1000"
@@ -118,5 +126,9 @@
       </ul>
     </nav>
   </footer>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
   <script src="./assets/js/scrollUpButton.js"></script>
+  <script src="./assets/js/leafletMap.js"></script>
 </body>

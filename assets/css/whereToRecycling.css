@@ -44,3 +44,15 @@
 .container-where-to-recycle .map-wrap {
   padding: 25px 0 0 0;
 }
+
+/*
+**
+**
+*** Leaflet Map
+**
+**
+*/
+
+#mapid {
+	height: 350px;
+}

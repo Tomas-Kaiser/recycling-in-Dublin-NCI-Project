@@ -3,7 +3,7 @@
 }
 
 .container-where-to-recycle {
-  padding: 80px 0;
+  padding: 80px 0 0 0;
 }
 
 .container-where-to-recycle h2 {
@@ -42,5 +42,5 @@
 }
 
 .container-where-to-recycle .map-wrap {
-  padding: 25px 0;
+  padding: 25px 0 0 0;
 }

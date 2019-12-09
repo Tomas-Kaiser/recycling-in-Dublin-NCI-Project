@@ -1,0 +1,184 @@
+h2 {
+	color:#00b33c;
+	margin:0;
+}
+
+.btn-center {
+	text-align: center;
+}
+
+.container{
+   padding-top: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container-2{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.contact-group{
+	max-width: 1200px;
+   margin: auto;
+   padding: 12px;
+}
+
+.contact-form{
+	border-radius:15px;
+	background-color: #cccccc;
+	margin: auto;
+}
+
+.contact-form-group {
+	padding: 15px;
+}
+
+.contact-form label{
+	display:block;
+	margin-bottom:15px;
+	padding:8px;
+}
+
+.contact-form h6{
+	font-style:italic;
+	content:"*";
+	color:red;
+}
+
+.contact-form .control-label:after{
+	content:"*";
+	color:red;
+}
+
+.contact-form input[type="text"]{
+	padding:10px;
+	margin-bottom:10px;
+	width:65%;
+	border-radius:8px;
+	border: none;
+}
+
+.contact-form input[type="email"] {
+	padding:10px;
+	margin-bottom:10px;
+	width:65%;
+	border-radius:8px;
+	border: none;
+}
+
+select{
+	width:50%;
+	margin-top: auto;
+	padding:20px;
+	border: none;
+	border-radius:4px;
+	background-color: #fff;
+	outline: none;
+}
+
+.contact-form textarea[name="message"], .contact-form textarea {
+	padding:25px;
+	margin-bottom:25px;
+	width:75%;
+	border-radius:8px;
+	border: none;
+}
+
+input, textarea{
+outline:none;
+}
+
+.news-form h3{	
+	color: #fff;
+	margin: 0;
+}
+
+.news-form{
+	color: #333;
+	background-color: #00b33c;
+	border-radius: 15px;
+	margin: 15px auto;
+}
+
+.news-form-group {
+	padding: 15px; 
+}
+
+.news-form-group p {
+	padding-bottom: 15px; 
+}
+
+.news-form label{
+	display:block; /*labels are on their own lines */
+	margin-top:3px;
+}
+
+.news-form input[type="text"], .my-form textarea {
+	padding:10px;
+	margin-bottom:10px;
+	border-radius: 8px;
+	border: none;
+	width:90%;
+}
+
+.news-form input[type="email"], .my-form textarea {
+	padding:10px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	border: none;
+	width:90%;
+}
+
+.news-form textarea {
+  width:100%;
+  height:150px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+	border-radius:8px;
+	border: none;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.button{
+  background-color:#333;
+  color:#fff;
+	font-size:16px;
+	padding:12px 28px;
+	border-radius:4px;
+	border: none;
+  margin: center;
+	position: inherit;
+	text-align: center;
+}
+
+.button:hover {
+  background-color: #4f5951;
+  color: white;
+	opacity: 1;
+}
+
+.button:active {
+  background-color: #4f5951;
+  box-shadow: 0 5px #666;
+  transform: translate(4px);
+}
+
+
+
+@media only screen and (min-width: 900px) {
+	.container-2 {
+	  display: flex;
+	  align-items: flex-start;
+	}
+	.contact-form {
+		width: 70%;
+      margin-right: 15px;
+      margin-bottom: 30px;
+	}
+	.news-form {
+		width: 30%;
+		margin: 0;
+	}
+ }

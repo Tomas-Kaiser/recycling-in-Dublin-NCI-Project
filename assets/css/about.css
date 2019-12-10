@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body{
+  background-color: #f4f4f4;
+  font: normal 16px Hind, Arial;
+  line-height: 1.6em;
+}
+
+.container-about{
+  	margin: auto;
+   padding: 90px 5% 60px 5%;
+   background-color: #f4f4f4;
+   color: #333;
+}
+
+h2{
+   color: #00b33c;
+   font-family: Hind, Arial;
+   font-size: 40px;
+   font-weight:800;
+   letter-spacing: 0.1em;
+   word-spacing: 0em;
+   text-align: center;
+   padding-top: 10px;
+   margin-bottom: 22px;
+}
+
+.image-responsive {
+  max-width: 100%;
+  object-fit: cover;
+  margin:0px auto;
+  display: block;
+  border-radius:4px;
+  padding-bottom: 10px;
+}
+
+#impact{
+   line-height: 32px;
+}
+
+#impact2{
+   line-height: 32px;
+}
+
+#impact2 img.decomposesea{
+  width:620px;
+  height:450px;
+  margin:0px auto;
+  display: block;
+  border-radius:5px;
+  padding-top: 10px;
+}
+
+#Didyouknow h3{
+font-weight: 800;
+padding-top: 10px;
+padding-bottom: 3px;
+text-align: center;
+}
+
+
+.containerflexpicoverlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* <!---picover1lay---> */
+  .picoverlay {
+    position: relative;
+    max-width: 500px;
+  }
+
+  .picoverlay .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: .1s ease;
+    opacity: 0%;
+  }
+
+  .picoverlay .text{
+    color: transparent;
+  }
+
+  .picoverlay:hover .overlay {
+    opacity: 93%;
+    width: 100%;
+    background-color: #00b33c;
+  }
+
+  .picoverlay:hover .text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    width: 250px;
+    top: 45%;
+    left: 50%;
+    line-height: 1.5em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  @media only screen and (min-width: 400px) {
+    .picoverlay:hover .text{
+      font-size: 25px;
+      width: 350px;
+    }
+  
+  }
+
+  @media only screen and (min-width: 880px) {
+    .containerflexpicoverlay {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+    .image-responsive {
+      max-width: none;
+      height: 250px;
+      width: 400px;
+    }
+    .container {
+      padding: 0 10%;
+    }
+  }
+
+  #sustainable h2{
+   color: #00b33c;
+   font-family: Hind, Arial;
+   font-size: 30px;
+  	font-weight:700;
+  	letter-spacing: 0.1em;
+  	word-spacing: 0em;
+   text-align: center;
+   padding-top: 90px;
+   padding-bottom: 20px;
+  }
+
+  #sustainable{
+    line-height: 32px;
+  }

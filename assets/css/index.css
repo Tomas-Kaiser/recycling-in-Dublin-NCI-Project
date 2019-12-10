@@ -197,17 +197,17 @@ h2 {
    margin-bottom: 70px;
 }
 
-.container-about {
+.container-index-about {
    margin: auto;
    padding: 40px 20px 80px 20px;
    max-width: 900px;
 }
 
-.container-about .who-we-are {
+.container-index-about .who-we-are {
    padding: 40px 20px 80px 20px;
 }
 
-.container-about .our-purpose {
+.container-index-about .our-purpose {
    padding: 40px 20px 80px 20px;
    text-align: right;
 }

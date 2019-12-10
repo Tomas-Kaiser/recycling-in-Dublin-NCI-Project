@@ -42,3 +42,242 @@
 	font-weight: bold;
 	text-align: center;
 }
+
+.container{
+	width:55%;
+	margin:auto;
+	padding:40px;
+	background-color: #f4f4f4;
+	color:#333;
+}
+
+.infohow{
+	line-height: 32px;
+}
+
+.infohow h2{
+	color: #00b33c;
+	font-family: Hind, Arial;
+	font-weight:800;
+	letter-spacing: 0.1em;
+ 	word-spacing: 0em;
+	text-align: center;
+	padding-top: 45px;
+}
+
+.infohow h3{
+font-weight: 800;
+padding-bottom: 3px;
+}
+
+
+img.cleanit{
+width:300px;
+height:290px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+.otheritems{
+line-height: 32px;
+}
+
+.otheritems h2{
+color: #00b33c;
+font-family: Hind, Arial;
+ font-weight:800;
+ letter-spacing: 0.1em;
+ word-spacing: 0em;
+text-align: center;
+padding-top: 45px;
+}
+.otheritems h3{
+color: #00b33c;
+font-family: Hind, Arial;
+text-align: center;
+padding-top: 15px;
+}
+
+.notrecycle{
+line-height: 32px;
+padding-top: 1px;
+}
+
+.notrecycle h3{
+color: #00b33c;
+font-family: Hind, Arial;
+padding-top: 15px;
+padding-bottom: 0px;
+text-align: center;
+}
+
+.notrecycle h2{
+color: #00b33c;
+font-family: Hind, Arial;
+ font-weight:800;
+ letter-spacing: 0.1em;
+ word-spacing: 0em;
+text-align: center;
+padding-top: 40px;
+padding-bottom: 0px;
+}
+
+img.pumpbottle{
+width: 90px;
+height:195px;
+border-radius: 5px;
+display: block;
+padding-top:20px;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+padding-top: 0px;
+}
+
+img.tapes{
+width: 200px;
+height:195px;
+border-radius: 5px;
+display: block;
+padding-top:20px;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding-top: 0px;
+}
+
+img.envelope{
+width: 200px;
+height:195px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding-top: 0px;
+}
+
+img.leverarch{
+width: 200px;
+height:195px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding-top: 0px;
+}
+
+img.coffeepods{
+width: 200px;
+height:195px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding-top: 0px;
+}
+
+img.dvdcase{
+width: 40px;
+height:160px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding-top: 0px;
+}
+
+img.cdcase{
+width: 200px;
+height:195px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+padding-top: 0px;
+}
+
+img.paperbag{
+width: 90px;
+height:205px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-top: 0px;
+}
+
+img.coffeecup{
+width: 10px;
+height:200px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+width: 50%;
+}
+
+img.refusebag{
+width: 20px;
+height:140px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+width: 30%;
+}
+
+img.softplastics{
+width: 200px;
+height:220px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+width: 50%;
+}
+
+img.tissues{
+width: 200px;
+height:195px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+width: 50%;
+}
+
+img.alumfoil{
+width: 100px;
+height:195px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+width: 50%;
+}
+
+img.dirtypb{
+width: 80px;
+height:240px;
+border-radius: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 0px;
+width: 50%;
+}

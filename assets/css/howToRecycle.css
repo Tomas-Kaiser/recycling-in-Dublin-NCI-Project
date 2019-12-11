@@ -5,11 +5,11 @@
 }
 
 .container-how-to-recycle .carousel-item {
-	height: 420px;
+	height: 250px;
 }
 
 .container-how-to-recycle .carousel-item img {
-	width: 320px;
+	width: 150px;
 }
 
 .container-how-to-recycle .carousel-control-prev-icon {
@@ -43,19 +43,18 @@
 	text-align: center;
 }
 
-.container{
-	width:55%;
+.container {
 	margin:auto;
 	padding:40px;
 	background-color: #f4f4f4;
 	color:#333;
 }
 
-.infohow{
+.infohow {
 	line-height: 32px;
 }
 
-.infohow h2{
+.infohow h2 {
 	color: #00b33c;
 	font-family: Hind, Arial;
 	font-weight:800;
@@ -65,20 +64,21 @@
 	padding-top: 45px;
 }
 
-.infohow h3{
+.infohow h3 {
 font-weight: 800;
 padding-bottom: 3px;
 }
 
 
-img.cleanit{
+img.cleanit {
 width:300px;
-height:290px;
+max-height:290px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+object-fit: cover;
 
 }
 
@@ -95,6 +95,7 @@ font-family: Hind, Arial;
 text-align: center;
 padding-top: 45px;
 }
+
 .otheritems h3{
 color: #00b33c;
 font-family: Hind, Arial;
@@ -128,7 +129,7 @@ padding-bottom: 0px;
 
 img.pumpbottle{
 width: 90px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 padding-top:20px;
@@ -136,11 +137,12 @@ margin-left: auto;
 margin-right: auto;
 width: 30%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.tapes{
 width: 200px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 padding-top:20px;
@@ -148,136 +150,149 @@ margin-left: auto;
 margin-right: auto;
 width: 40%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.envelope{
 width: 200px;
-height:195px;
+max-height: 195px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 40%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.leverarch{
 width: 200px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 40%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.coffeepods{
 width: 200px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 40%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.dvdcase{
 width: 40px;
-height:160px;
+max-height:160px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 40%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.cdcase{
 width: 200px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 40%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.paperbag{
 width: 90px;
-height:205px;
+max-height:205px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
 padding-top: 0px;
+object-fit: cover;
 }
 
 img.coffeecup{
 width: 10px;
-height:200px;
+max-height:200px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 0px;
 width: 50%;
+object-fit: cover;
 }
 
 img.refusebag{
 width: 20px;
-height:140px;
+max-height:140px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 0px;
 width: 30%;
+object-fit: cover;
 }
 
 img.softplastics{
 width: 200px;
-height:220px;
+max-height:220px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 0px;
 width: 50%;
+object-fit: cover;
 }
 
 img.tissues{
 width: 200px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 0px;
 width: 50%;
+object-fit: cover;
 }
 
 img.alumfoil{
 width: 100px;
-height:195px;
+max-height:195px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 0px;
 width: 50%;
+object-fit: cover;
 }
 
 img.dirtypb{
 width: 80px;
-height:240px;
+max-height:240px;
 border-radius: 5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 0px;
 width: 50%;
+object-fit: cover;
 }

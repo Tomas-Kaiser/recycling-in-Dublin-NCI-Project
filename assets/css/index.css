@@ -5,7 +5,7 @@
    --menu-speed: 0.75s;
 }
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -18,7 +18,26 @@ html {
 body {
    background-color: rgb(238, 238, 238);
    font-family: 'Roboto', sans-serif;
-   line-height: 1.4;
+   line-height: 1.6em;
+}
+
+h2 {
+   margin: 20px 0;
+   color: #00b33c;
+   font-size: 40px;
+   font-weight: 800;
+   letter-spacing: 0.1em;
+   word-spacing: 0em;
+   text-align: center;
+   line-height: 40px;
+}
+
+h3 {
+   margin: 44px 0 25px 0;
+}
+
+p {
+   margin: 12px 0;
 }
 
 .jumbotron {
@@ -76,7 +95,7 @@ input[type="button"]:hover {
 
 .scroll-top-btn {
    font-size: 50px;
-   color: #45eb69;
+   color: greenyellow;
    position: fixed;
    background-color: transparent;
    padding: 10px;
@@ -91,7 +110,7 @@ input[type="button"]:hover {
 
 .scroll-top-btn:hover,
 .scroll-top-btn:active {
-   color: #2eb34b;
+   color: yellowgreen;
 }
 
 .scroll-top-btn:focus {
@@ -133,11 +152,6 @@ input[type="button"]:hover {
    font-size: 35px;
    font-family: Tomorrow, sans-serif;
    letter-spacing: 3px;
-}
-
-h2 {
-   font-size: 35px;
-   font-family: Hind, sans-serif;
 }
 
 /* ARROWS */
@@ -207,8 +221,15 @@ h2 {
    padding: 40px 20px 80px 20px;
 }
 
+.container-index-about .who-we-are h2 {
+   text-align: left;
+}
+
 .container-index-about .our-purpose {
    padding: 40px 20px 80px 20px;
+}
+
+.container-index-about .our-purpose h2 {
    text-align: right;
 }
 
@@ -257,6 +278,10 @@ h2 {
    text-align: center;
    padding: 20px 0;
    min-height: 300px;
+
+   display: flex;
+   text-align: center;
+   justify-content: center;
 }
 
 .container-gallery .img-wrap img {

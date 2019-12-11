@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-   --primary-color: rgba(13, 110, 139, 0.75);
+   --primary-color: #00b33c;
    --overlay-color: rgba(24, 39, 51, 0.5);
    --menu-speed: 0.75s;
 }
@@ -16,7 +16,7 @@ html {
  }
 
 body {
-   background-color: rgb(238, 238, 238);
+   background-color: white;
    font-family: 'Roboto', sans-serif;
    line-height: 1.6em;
 }
@@ -95,7 +95,7 @@ input[type="button"]:hover {
 
 .scroll-top-btn {
    font-size: 50px;
-   color: greenyellow;
+   color: #07fd40;
    position: fixed;
    background-color: transparent;
    padding: 10px;
@@ -335,14 +335,14 @@ footer .social-media ul .social-icons-first {
 
 footer .social-media .fa {
    padding: 6px;
-   font-size: 16px;
-   width: 30px;
+   font-size: 22px;
+   width: 40px;
    text-decoration: none;
    margin: 5px 2px;
    border-radius: 33%;
 
    color: black;
-   background-color: greenyellow;
+   background-color: #07fd40;
 }
 
 footer .social-media .fa:hover {

@@ -56,3 +56,7 @@
 #mapid {
 	height: 450px;
 }
+
+.leaflet-popup-content {
+  font-size: 15px;
+}

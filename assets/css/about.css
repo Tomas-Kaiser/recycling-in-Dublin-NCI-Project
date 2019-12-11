@@ -1,8 +1,8 @@
 .container-about{
-  	margin: auto;
-   padding: 90px 5% 60px 5%;
-   background-color: #f4f4f4;
-   color: #333;
+    margin: auto;
+    padding: 90px 5% 60px 5%;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 h2{
@@ -124,16 +124,16 @@ text-align: center;
     }
   }
 
-  #sustainable h2{
-   color: #00b33c;
-   font-family: Hind, Arial;
-   font-size: 30px;
+  #sustainable h2 {
+    color: #00b33c;
+    font-family: Hind, Arial;
+    font-size: 30px;
   	font-weight:700;
   	letter-spacing: 0.1em;
   	word-spacing: 0em;
-   text-align: center;
-   padding-top: 90px;
-   padding-bottom: 20px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
   }
 
   #sustainable{

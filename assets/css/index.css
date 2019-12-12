@@ -45,21 +45,31 @@ p {
    padding: 20px;
 }
 
-input[type="button"] {
-   color: darkgreen;
-   padding: 5px 8px;
-   background: transparent;
-   border-radius: 4px;
-   border: 3px solid #4f7712;
+input[type="button"], input[type="submit"] {
+   background-color:#333;
+   color:#fff;
    cursor: pointer;
-   font-size: 14px;
+   font-size:16px;
+   padding:12px 28px;
+   border-radius:4px;
+   border: none;
+   margin: center;
+   position: inherit;
+   text-align: center;
 }
 
-input[type="button"]:hover {
-   background: #4f7712;
+input[type="button"]:hover, input[type="submit"]:hover {
+   background-color: #4f5951;
    color: white;
-   transition: ease-in 0.5s;
+   opacity: 1;
 }
+
+input[type="button"]:active, input[type="submit"]:active {
+   background-color: #4f5951;
+   box-shadow: 0 5px #666;
+   transform: translate(4px);
+}
+
 
 /* Loader - inspired from W3school */
 .loader {

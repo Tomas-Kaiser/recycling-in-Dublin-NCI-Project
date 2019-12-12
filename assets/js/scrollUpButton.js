@@ -38,7 +38,5 @@
       } else if (scrollTopBtn.className === SCROLL_TOP_BTN_CLASSNAME_SHOW) {
          hide();
       }
-
-      console.log(document.scrollingElement.scrollTop);
    });
 })();

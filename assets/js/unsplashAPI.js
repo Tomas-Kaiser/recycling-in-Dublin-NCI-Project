@@ -6,7 +6,6 @@ function fetchNextImg(){
    fetch("https://source.unsplash.com/collection/9026257")
       .then(response => {
          if (response.ok) {
-            console.log(response);
             const img = document.getElementById("unsplash");
             const url = response.url;
             img.src = url;
@@ -29,8 +28,8 @@ function fetchNextImg(){
       })
       .catch(err => {
          const imgError = document.getElementsByClassName("img-error-msg");
-         console.log(err);
-         //imgError.style.display = "block";
+         // console.log(err);
+         imgError.style.display = "block";
       })
       ;
 }

@@ -61,7 +61,7 @@
         <li>Community Bring Centres</li>
         <li>Bottle Banks</li>
       </ul>
-      <span id="dots">...</span><span id="more">
+      <span id="dots">...</span><div id="more">
         <h5>RECYCLING IN DUBLIN</h5>
         <p>
           Our comprehensive map shows you where the nearest bring bank, civic amenity site,
@@ -70,29 +70,29 @@
         Here you will find everything you need to know about how to manage your waste
         responsibly and efficiently. Browse this site for local waste services,
         recycling facilities, information on preventing, reusing and disposing of waste.
-      </span>
+      </div>
       <div class="btn-wrap">
         <input type="button" onclick="ReadMore()" id="morebtn" value="Read More" />
       </div>
     </section>
 
     <div id="mapid"></div>
-
+  </div>
     <footer>
       <section class=social-media>
         <h4>Follow Us</h4>
-        <ul>
-          <div class="social-icons-first">
+        <nav>
+          <ul class="social-icons-first">
             <li><a href="#" class="fa fa-linkedin"></a></li>
             <li><a href="#" class="fa fa-pinterest"></a></li>
             <li><a href="#" class="fa fa-twitter"></a></li>
-          </div>
-          <div class="social-icons-second">
+          </ul>
+          <ul class="social-icons-second">
             <li><a href="#" class="fa fa-youtube"></a></li>
             <li><a href="#" class="fa fa-instagram"></a></li>
             <li><a href="#" class="fa fa-facebook"></a></li>
-          </div>
-        </ul>
+          </ul>
+        </nav>
       </section>
 
       <nav class="footer-menu">
@@ -104,11 +104,13 @@
         </ul>
       </nav>
     </footer>
+    
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
       integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
       crossorigin=""></script>
     <script src="./assets/js/scrollUpButton.js"></script>
     <script src="./assets/js/leafletMap.js"></script>
+
     <script>
       function ReadMore() {
         var dots = document.getElementById("dots");
@@ -126,5 +128,6 @@
         }
       }
     </script>
+
 </body>
 </html>
